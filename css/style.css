@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+
+/* -------------------------------------------------------------------------- */
+/*                               Variables Style                              */
+/* -------------------------------------------------------------------------- */
+
+:root {
+	/*** Primary Color ***/
+	--Cyan: hsl(179, 62%, 43%);
+	--brightYellow: hsl(71, 73%, 54%);
+
+	/*** Neutral Color ***/
+	--lightGray: hsl(204, 43%, 93%);
+	--grayishBlue: hsl(218, 22%, 67%);
+
+	/*** Typographie ***/
+	--primaryFont: 'Karla', sans-serif;
+	--defaultFontSize: 1rem;
+	--regularFontWeight: 400;
+	--boldFontWeight: 700;
+}
+
+/* -------------------------------------------------------------------------- */
+/*                                 Reset Style                                */
+/* -------------------------------------------------------------------------- */
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+h1,
+h2,
+p {
+	margin-bottom: 1em;
+}
+
+button {
+	font: inherit;
+	color: inherit;
+	outline: none;
+	border: none;
+}
+
+ul[class] {
+	list-style-type: none;
+	padding: 0;
+}
+/* -------------------------------------------------------------------------- */
+/*                                General Style                               */
+/* -------------------------------------------------------------------------- */
+
+body {
+	display: flex;
+	flex-direction: column;
+	place-content: center;
+	font-family: var(--primaryFont);
+	font-size: var(--defaultFontSize);
+	line-height: 1.4;
+	color: var(--grayishBlue);
+	background-color: var(--lightGray);
+	width: min(100%, 90rem);
+	min-height: 100vh;
+	margin-inline: auto;
+	padding: 4.5rem 2rem;
+}
+
+/* -------------------------------------------------------------------------- */
+/*                                Media Queries                               */
+/* -------------------------------------------------------------------------- */
+
+@media only screen and (min-width: 70em) {
+}
