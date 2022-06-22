@@ -143,6 +143,10 @@ body {
 		grid-template-columns: repeat(2, 1fr);
 	}
 
+	.grid-container > * {
+		padding: 2.8125rem 2.5rem 2.5rem;
+	}
+
 	.hero {
 		grid-column: span 2;
 		padding-right: 3.75rem;
