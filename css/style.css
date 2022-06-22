@@ -93,6 +93,7 @@ body {
 
 .hero-text {
 	font-size: clamp(0.875rem, 0.6947rem + 0.7692vw, 1rem);
+  margin: 0;
 }
 .subscription {
 	color: var(--lightGray);
